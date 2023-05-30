@@ -161,21 +161,40 @@ function Welcome(){
         
         </div>    
 
-        <div className="clarify-box">
-        <span className="clarifications">Need clarifications?</span> 
-        <div className="bot">
-        Check out <i>
-            <b>Stacy</b>
-            </i>, our chatbot for more details to asnswers to your questions
-        </div>
-        </div>
         
-        <p className="con" >Join millions of skilled personnel on the platform and have the opportunity
+        <hr className="clarify-line1"></hr>
+        <div className="clarify">Need clarifications?</div>
+            <p className="chatbot">
+                Check out Stacy, our chatbot for more details to asnswers to your questions
+            </p>
+        <hr className="clarify-line2"></hr>
+
+        
+        <p className="con" >
+            Join millions of skilled personnel on the platform and have the opportunity
         of being employed right on this platform</p> 
-        employah!
-        <hr></hr>
----------------------------------------------------------------------------------------------  
-        <footer>Employah!</footer>
+       
+       
+        <div className="end-logo">
+            <u><b>Employah!</b></u>
+        </div>
+            <p className="end-response">
+            Join Employah, Take the test, Get emloyed!!!
+            </p>
+
+
+        <footer className="he">
+        <div className="header">
+                <ul>
+                    <li><a href="home">Home</a></li>
+                    <li><a href="employers">Employers</a></li>
+                    <li><a href="resources">Resources</a></li>
+                    <li><a href="contact_us">Contact Us</a></li>
+                    <li><a href="about">About</a></li>
+                </ul>
+            </div>            
+            
+        </footer>
 
     </>
         
