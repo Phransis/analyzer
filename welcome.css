@@ -1,4 +1,5 @@
 *{
+    
     background-color: aliceblue;
     overflow:auto;
     padding: 0;
@@ -45,17 +46,20 @@
     border-radius: 2em;
     height: 2.5em;
     width: 5.5em;
-    font-size: 1em;    
+    font-size: 1em;   
+    cursor: pointer; 
 }
 
 .registerbtn:hover{
     color: rgb(14, 50, 231);
+    
 }
 .registerbtn{
     border-radius: 2em;
     height: 2.5em;
     width: 5.5em;
     font-size: 1em;
+    cursor: pointer;
 }
 
 .wording{
@@ -98,6 +102,83 @@
     height: 10em;
 }*/
 
+.rule{
+    color: aqua;
+    width: 50em;
+    margin-left: 13em;
+    margin-top: -5em;
+    margin-bottom: 5em;
+}
+
+.need{
+    font-size: 3.0em;
+    margin-bottom: 2.0em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.sign-up-box{
+    margin-left: 1.0em;
+}
+.sign-up-header{
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.sign-up{
+    font-size: 1.2em;
+    width: 10em;
+    height: 15em;
+}
+
+
+.e-CV-box{
+    margin-left: 20.0em;
+    margin-top: -22.20em;
+}
+.e-CV-header{
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.e-CV{
+    font-size: 1.2em;
+    width: 10em;
+    height: 15em;
+}
+
+
+.takeTEST-box{
+    margin-left: 40.0em;
+    margin-top: -22.20em;
+}
+.takeTEST-header{
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.takeTEST{
+    font-size: 1.2em;
+    width: 10em;
+    height: 15em;
+}
+
+
+.getRANKED-box{
+    margin-left: 60.0em;
+    margin-top: -22.20em;
+}
+.getRANKED-header{
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.getRANKED{
+    font-size: 1.2em;
+    width: 10em;
+    height: 15em;
+}
+
 .container1{
     font-size: 1em;
     font-size: x-large;
@@ -105,7 +186,7 @@
     height: 15em;
     margin: 1.0em auto; /* horizontally center the element */
     margin-top: -0em;
-    margin-left: 2em;
+    margin-left: 1em;
     border: 1px solid transparent;
     border-radius: 25px;
     box-shadow: 2px 2px 9px 7px rgba(0, 0, 0, 0.2);
@@ -118,7 +199,7 @@
     height: 15em;
     margin: 1.0em auto; /* horizontally center the element */
     margin-top: -20em;
-    margin-left: 28em;
+    margin-left: 27em;
     border: 1px solid transparent;
     border-radius: 25px;
     box-shadow: 2px 2px 9px 7px rgba(0, 0, 0, 0.2);
@@ -139,15 +220,204 @@
     text-align: center;
 }
 
-/*.container4{
+.container4{
+    /*background-image: url("../../images/Ai2.jpg");*/
+
     font-size: 1em;
-    width: 73.5em;
+    width: 70.5em;
     height: 15em;
     margin: 1.0em auto;
-    margin-top: 5em;
-    margin-left: 1em;
+    margin-top: 10em;
+    margin-left: 3.5em;
     border: 1px solid transparent;
     border-radius: 5px;
     box-shadow: 2px 2px 9px 7px rgba(0, 0, 0, 0.2);
     text-align: center;
-}*/
+}
+
+.version{
+    margin-top: 1em;
+    color: rgb(27, 53, 94);
+
+}
+.best{
+    color: rgb(27, 53, 94);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    margin-top: 1.0em;
+    
+}
+
+.job{
+    color: rgb(27, 53, 94);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 4.0em;
+}
+
+.test{
+    color: rgb(27, 53, 94);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+}
+
+
+.linked:hover{
+    color: rgb(77, 192, 227) ;
+
+}
+.linked{
+    color: rgb(27, 53, 94);
+    font-size: 1.0em;
+    margin-right: 3.5em;
+    margin-top: 1.0em;
+}
+
+
+.location:hover{
+    color: rgb(135, 136, 195) ;
+
+}
+.location{
+    color: rgb(27, 53, 94);
+    font-size: 1.0em;
+    margin-right: 3.5em;
+    margin-top: 3.0em;
+
+    /*text-align: left;*/
+}
+
+
+.dream:hover{
+    color: rgb(41, 44, 209) ;
+
+}
+.dream{
+    color: rgb(27, 53, 94);
+    font-size: 1.0em;
+    margin-top: 3.0em;
+    margin-right: 3.5em;
+    /*text-align: center;*/
+}
+
+.info1{
+    margin-top:4em;
+    /*margin-right: 25em;*/
+    font-size: 4.0em;
+    text-align: center;
+}
+
+.info2{
+    margin-top:2.0em;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+
+
+.uniqueness{
+    font-size: 3.0em;
+    margin-top: 3.0em;
+    margin-bottom: 2.0em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.largePOOL-box{
+    margin-left: 1.0em;
+}
+.largePOOL-header{
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.largePOOL{
+    font-size: 1.2em;
+    width: 10em;
+    height: 15em;
+}
+
+
+.timeSAVING-box{
+    margin-left: 20.0em;
+    margin-top: -22.20em;
+}
+.timeSAVING-header{
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.timeSAVING{
+    font-size: 1.2em;
+    width: 10em;
+    height: 15em;
+}
+
+.virtual-box{
+    margin-left: 40.0em;
+    margin-top: -22.20em;
+}
+.virtual-header{
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.virtual{
+    font-size: 1.2em;
+    width: 10em;
+    height: 15em;
+} 
+
+.skillset-box{
+    margin-left: 60.0em;
+    margin-top: -22.20em;
+}
+.skillset-header{
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.skillset{
+    font-size: 1.2em;
+    width: 10em;
+    height: 15em;
+}
+
+
+.on{
+    text-align: center;
+}
+.onTheGo{
+    font-size: 5.0em;
+
+}
+
+.updated{
+    font-size: 2.0em;
+}
+
+
+.clarify-box{
+    background-color: rgb(226, 226, 240);
+    height: 10em;
+    width: auto;
+}
+
+.clarifications{
+    font-size: 3.0em;
+    text-align: center;
+    margin-top: 3.0em;
+}
+
+.bot{
+    font-size: 2.0em;
+    text-align: center;
+}
+
+.con{
+    background-color: rgb(226, 226, 240);
+    font-size: 2.0em;
+    height: 10em;
+    width: auto;
+    margin-top: 7.0em;
+    margin-bottom: 2.0em;
+    text-align: center;
+}
