@@ -58,7 +58,8 @@ body{
 
     }
     .loginbtn{
-        padding-bottom: 2.0em ;
+        padding-bottom: 1.0em ;
+        margin-left: 6.0em;
         margin-top: 2.5em ;
     }
 
@@ -73,6 +74,5 @@ body{
   }
   .login-btn:hover{
     background-color: rgb(81, 196, 246);
-    color: aliceblue;
-    
+    color: aliceblue; 
   }
