@@ -182,20 +182,24 @@ function Welcome(){
             Join Employah, Take the test, Get emloyed!!!
             </p>
 
+            
+
+        <button className='signUpFree-btn'>Sign Up Free</button>
+
 
         <footer className="he">
         <div className="header">
-                <ul>
-                    <li><a href="home">Home</a></li>
-                    <li><a href="employers">Employers</a></li>
-                    <li><a href="resources">Resources</a></li>
-                    <li><a href="contact_us">Contact Us</a></li>
-                    <li><a href="about">About</a></li>
+                <ul><hr></hr>
+                    <li><a href="home">Home</a></li><hr></hr>
+                    <li><a href="employers">Employers</a></li><hr></hr>
+                    <li><a href="resources">Resources</a></li><hr></hr>
+                    <li><a href="contact_us">Contact Us</a></li><hr></hr>
+                    <li><a href="about">About</a></li><hr></hr>
                 </ul>
             </div>            
             
         </footer>
-
+2023
     </>
         
        
