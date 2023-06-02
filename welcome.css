@@ -434,6 +434,26 @@
 
 .he{
     margin-top: 7.0em;
+    margin-left: 20.0em;
     margin-bottom: 5.0em;
 }
+
+
+.signUpFree-btn{
+    margin-top: 5.0em;
+    margin-left: 35em;
+    font-size: 1.0em;
+    border: none;
+    padding: 1.5em 2em;
+    border-radius: 1.0em;
+    background-color: rgb(11, 114, 204);
+    color: aliceblue;
+    cursor: pointer;
+    
+  }
+  .signUpFree-btn:hover{
+    background-color: rgb(81, 196, 246);
+    color: aliceblue;
+    
+  }
 
